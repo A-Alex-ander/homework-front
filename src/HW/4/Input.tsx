@@ -1,6 +1,6 @@
 type InputPropsType = {
-	currentText: any // НУЖНО ПРОТИПИЗИРОВАТЬ
-	setCurrentText: any // НУЖНО ПРОТИПИЗИРОВАТЬ
+	currentText: string // НУЖНО ПРОТИПИЗИРОВАТЬ
+	setCurrentText: string // НУЖНО ПРОТИПИЗИРОВАТЬ
 };
 
 export const Input = (props: InputPropsType) => {
