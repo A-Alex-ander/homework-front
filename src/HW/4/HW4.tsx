@@ -30,7 +30,7 @@ export const HW4 = () => {
         <h1 id={'hw04-default-text'}>Здесь появится новое дело</h1>
       )}
 
-      <Input НЕ ХВАТАЕТ АРГУМЕНТОВ />
+      <Input currentText={currentText} setCurrentText={setCurrentText}  />
 
       <Button НЕ ХВАТАЕТ АРГУМЕНТОВ />
 
